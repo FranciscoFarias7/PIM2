@@ -85,10 +85,10 @@ void listar(void) {
 
 for (int i = 0; i < total; i++) {
     printf("ID: %d\n", ids[i]);
-    printf("Nome: %d\n", nomes[i]);
-    printf("Modelo: %d\n", modelos[i]);
-    printf("Prompt: %d\n", prompts[i]);
-    printf("Temperatura: %d\n", temperaturas[i]);
+    printf("Nome: %s\n", nomes[i]);
+    printf("Modelo: %s\n", modelos[i]);
+    printf("Prompt: %s\n", prompts[i]);
+    printf("Temperatura: %.1f\n", temperaturas[i]);
     printf("Tokens: %d\n", tokens[i]);
 }
 printf("\n========================================\n");
